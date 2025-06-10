@@ -1,5 +1,8 @@
-export default function App() {
-  return <></>;
-}
-
-// need help completing this. don't know where to start
+const App = () => {
+  const [Carts, setCarts] = useState([Plants]);
+  return (
+    <>
+      <Plants data={PLANTS} />
+    </>
+  );
+};
